@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS Activity Dashboard</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .cs-card { background-color: #f7f7f7; border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .log-item { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #eee; }
+        h4 { margin: 0 0 10px 0; }
+        #loading { text-align: center; padding: 50px; color: #555; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3>Dashboard Aktivitas CS</h3>
+        <button id="refresh-btn">Refresh Data</button>
+    </div>
+    <div id="dashboard-container">
+        <div id="loading">Memuat data...</div>
+    </div>
+
+    <script src="admin_dashboard.js"></script>
+</body>
+</html>
